@@ -106,6 +106,10 @@
       "web.jsx",
       "jsx",
       "node"
+    ],
+    "setupFiles": [
+      "react-app-polyfill/jsdom",
+      "src/jestsetup.js"
     ]
   },
   "babel": {
